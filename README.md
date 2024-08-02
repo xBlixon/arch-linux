@@ -13,15 +13,13 @@ It contains one script that downloads all prerequisites with `pacman`.
 
 ---
 
-## disk-partitioning
+## quick-partition
 
-### It contains:
+Partitions disk as followed:
 
--   ~~Simplified interactive partitioner~~
-    -   Doesn't exist yet
--   Quick predefined disk partitioner
-    -   Script at: `quick-predefined/quick-partition.sh`
-    -   Uses `quick-predefined/disklayout` file as layout for disk partitioning.
+-   /dev/nvme0n1p1 - EFI System (2GB)
+-   /dev/nvme0n1p2 - Linux swap (8GB)
+-   /dev/nvme0n1p3 - Linux root (x86-64) (Remaining space)
 
 ---
 
