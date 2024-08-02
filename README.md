@@ -15,10 +15,6 @@ It contains one script that downloads all prerequisites with `pacman`.
 
 ## disk-partitioning
 
-### Prerequisites:
-
--   sfdisk
-
 ### It contains:
 
 -   ~~Simplified interactive partitioner~~
