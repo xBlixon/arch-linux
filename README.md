@@ -22,3 +22,13 @@ It contains one script that downloads all prerequisites with `pacman`.
 -   Quick predefined disk partitioner
     -   Script at: `quick-predefined/quick-partition.sh`
     -   Uses `quick-predefined/disklayout` file as layout for disk partitioning.
+
+---
+
+## mount-system
+
+Mounts:
+
+-   Linux root -> /mnt
+-   EFI System -> /mnt/boot
+-   Linux Swap -> enables swap space
