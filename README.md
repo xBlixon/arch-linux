@@ -23,6 +23,16 @@ Partitions disk as followed:
 
 ---
 
+## make-filesystem
+
+Formats partitions as followed:
+
+-   Linux root (x86-64) -> ext4
+-   Linux swap (8GB) -> enables swap space
+-   EFI System -> FAT32
+
+---
+
 ## mount-system
 
 Mounts:
