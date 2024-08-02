@@ -7,13 +7,13 @@ Note: It is recommended to use [tools-install](#tools-install) if many sections 
 
 ---
 
-## tools-install
+## tools-install.sh
 
 It contains one script that downloads all prerequisites with `pacman`.
 
 ---
 
-## quick-partition
+## quick-partition.sh
 
 Partitions disk as followed:
 
@@ -23,7 +23,7 @@ Partitions disk as followed:
 
 ---
 
-## make-filesystem
+## make-filesystem.sh
 
 Formats partitions as followed:
 
@@ -33,10 +33,16 @@ Formats partitions as followed:
 
 ---
 
-## mount-system
+## mount-system.sh
 
 Mounts:
 
 -   Linux root -> /mnt
 -   EFI System -> /mnt/boot
 -   Linux Swap -> enables swap space
+
+---
+
+## install-packages.sh
+
+Installs basic set of packages to the new arch installation.
