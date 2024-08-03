@@ -46,3 +46,21 @@ Mounts:
 ## install-packages.sh
 
 Installs basic set of packages to the new arch installation.
+
+---
+
+## fstab.sh
+
+Generates fstab for the new arch installation.
+
+---
+
+## chroot.sh
+
+Chroots to new system mounted to /mnt.
+
+---
+
+## set-time.sh
+
+Sets system time to Europe/Warsaw.
