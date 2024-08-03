@@ -64,3 +64,20 @@ Chroots to new system mounted to /mnt.
 ## set-time.sh
 
 Sets system time to Europe/Warsaw.
+
+---
+
+## localization.sh
+
+1. Uncomments at `/etc/locale.gen`:
+
+    - en_US.UTF-8 UTF-8
+    - pl_PL.UTF-8 UTF-8
+
+1. Runs `locale-gen`
+1. Creates `/etc/locale.conf` file containing lines:
+
+    - LANG=pl_PL.UTF-8
+    - LC_MESSAGES=en_US.UTF-8
+
+1. Creates `/etc/vconsole.conf` file containing `KEYMAP=pl`
