@@ -87,3 +87,9 @@ Sets system time to Europe/Warsaw.
     - LC_MESSAGES=en_US.UTF-8
 
 1. Creates `/etc/vconsole.conf` file containing `KEYMAP=pl`
+
+---
+
+## hostname.sh
+
+Creates /etc/hostname
