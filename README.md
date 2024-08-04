@@ -55,6 +55,12 @@ Generates fstab for the new arch installation.
 
 ---
 
+## copy-to-new.sh
+
+Copies this directory to new arch installation.
+
+---
+
 ## chroot.sh
 
 Chroots to new system mounted to /mnt.
